@@ -1,4 +1,4 @@
-package com.nelioalves.cursomc;
+package com.fagnersouza.cursomc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
