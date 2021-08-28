@@ -3,10 +3,12 @@ package com.fagnersouza.cursomc.services;
 import javax.mail.internet.MimeMessage;
 
 import org.springframework.mail.SimpleMailMessage;
+import org.springframework.stereotype.Service;
 
 import com.fagnersouza.cursomc.domain.Cliente;
 import com.fagnersouza.cursomc.domain.Pedido;
 
+@Service
 public interface EmailService {
 
 	void sendOrderConfirmationEmail(Pedido obj);
