@@ -39,20 +39,20 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	private static final String[] PUBLIC_MATCHERS = {
 			"/h2-console/**",
-			"/app1-spring-ionic.herokuapp.com/**"
+			"/herokuapp.com/**"
 	};
 
 	private static final String[] PUBLIC_MATCHERS_GET = {
 			"/produtos/**",
 			"/categorias/**",
 			"/clientes/**",
-			"/app1-spring-ionic.herokuapp.com/**"
+			"/herokuapp.com/**"
 	};
 	
 	private static final String[] PUBLIC_MATCHERS_POST = {
 			"/clientes/**",
 			"/auth/forgot/**",
-			"/app1-spring-ionic.herokuapp.com/**"
+			"/herokuapp.com/**"
 	};
 
 	@Override
