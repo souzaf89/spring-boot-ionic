@@ -38,21 +38,18 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	private JWTUtil jwtUtil;
 	
 	private static final String[] PUBLIC_MATCHERS = {
-			"/h2-console/**",
-			"/app1-spring-ionic.herokuapp.com/**"
+			"/h2-console/**"
 	};
 
 	private static final String[] PUBLIC_MATCHERS_GET = {
 			"/produtos/**",
 			"/categorias/**",
-			"/clientes/**",
-			"/app1-spring-ionic.herokuapp.com/**"
+			"/clientes/**"
 	};
 	
 	private static final String[] PUBLIC_MATCHERS_POST = {
 			"/clientes/**",
-			"/auth/forgot/**",
-			"/app1-spring-ionic.herokuapp.com/**"
+			"/auth/forgot/**"
 	};
 	
 	@Override
